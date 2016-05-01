@@ -8,7 +8,8 @@
     "build": "browserify -t hbsfy index.js -g uglifyify > bundle.js",
     "dist": "mkdir -p dist && bash -c 'cp *.{js,html,css} dist'",
     "push": "gh-pages -d dist",
-    "deploy": "npm run build && npm run dist && npm run push"
+    "deploy": "npm run build && npm run dist && npm run push",
+    "play": "npm run build && npm run dist"
   },
   "keywords": [],
   "author": "",
