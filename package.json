@@ -22,5 +22,8 @@
     "hbsfy": "^2.5.1",
     "uglifyify": "^3.0.1",
     "xhr": "^2.2.0"
+  },
+  "dependencies": {
+    "moment": "^2.13.0"
   }
 }
